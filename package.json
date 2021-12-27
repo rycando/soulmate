@@ -1,0 +1,23 @@
+{
+  "name": "soulmate",
+  "version": "1.0.0",
+  "description": "Share your soul with playlist",
+  "main": "index.js",
+  "repository": "https://github.com/rycando/soulmate.git",
+  "author": "rycando <rycando@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0",
+    "graphql-yoga": "^1.18.3",
+    "node": "^17.3.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  }
+}
