@@ -1,4 +1,3 @@
 # soulmate
-Share your soul with playlisi
+Share your soul with playlist
 
-I want to do programming
